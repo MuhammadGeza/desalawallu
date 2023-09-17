@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+  font-family: arial;
+}
+
+.viga {
+  font-family: Viga;
+}
+
+/* Jumbottron */
+@media only screen and (min-width: 992px) {
+  .carousel-item {
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #jumbottron {
+    padding-top: 4rem;
+  }
+}
+/* End */
+
+/* Profil Desa */
+#profil_desa {
+  background-color: #d3d3d3;
+}
+/* End */
