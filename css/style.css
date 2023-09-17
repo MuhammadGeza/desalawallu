@@ -11,6 +11,10 @@ html {
   font-family: arial;
 }
 
+section {
+  padding-top: 5rem;
+}
+
 .viga {
   font-family: Viga;
 }
