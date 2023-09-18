@@ -30,6 +30,10 @@ section {
     padding-top: 4rem;
   }
 }
+
+#jumbottron {
+  padding-top: 0 !important;
+}
 /* End */
 
 /* Profil Desa */
