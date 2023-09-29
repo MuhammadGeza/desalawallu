@@ -19,6 +19,41 @@ section {
   font-family: Viga;
 }
 
+/* Navbar */
+.namaDesa {
+  line-height: 1.25;
+  margin-bottom: 0rem;
+  font-weight: 700;
+  color: #e8ef4d;
+  font-size: 1.25rem;
+}
+
+.kabDesa {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+  .wrap-nama-desa {
+    margin-left: -1.5px;
+  }
+  .namaDesa {
+    line-height: 1.25;
+    margin-bottom: 0rem;
+    font-weight: 700;
+    color: #e8ef4d;
+    font-size: 1rem;
+  }
+
+  .kabDesa {
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+  }
+}
+/* End */
+
 /* Jumbottron */
 @media only screen and (min-width: 992px) {
   .carousel-item {
